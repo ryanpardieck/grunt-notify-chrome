@@ -1,3 +1,5 @@
 node_modules
 .idea
 data
+grunt-notify-chrome.sublime-project
+grunt-notify-chrome.sublime-workspace
