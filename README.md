@@ -17,7 +17,7 @@ Set Up
 
 grunt-notify-chrome simply feeds your notifications to a Firebase of your choosing. 
 
-First run: ```npm install grunt-notify-chrome```
+First run: ```npm install grunt-notify-chrome --save-dev```
 
 You have to create a secrets.js file in node_modules/grunt-notify-chrome/lib.
 
@@ -26,6 +26,8 @@ secrets.js should be a one-line file that reads like this:
 ```
 module.exports = "https://my_personal_firebase_here.firebaseIO.com"
 ```
+
+Finally add this line to your Gruntfile: ```grunt.loadNpmTasks('grunt-notify-chrome');```
 
 Of course you also need to sign up for your own Firebase at firebase.com.
 
