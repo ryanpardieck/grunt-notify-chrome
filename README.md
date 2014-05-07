@@ -27,6 +27,8 @@ secrets.js should be a one-line file that reads like this:
 module.exports = "https://my_personal_firebase_here.firebaseIO.com"
 ```
 
+Of course you also need to sign up for your own Firebase at firebase.com.
+
 Credit
 -----
 
