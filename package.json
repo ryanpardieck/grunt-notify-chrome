@@ -1,23 +1,23 @@
 {
-  "name": "grunt-notify",
+  "name": "grunt-notify-chrome",
   "description": "Remote desktop notifications for Grunt through Chrome.",
-  "version": "0.3.0",
-  "homepage": "https://github.com/dylang/grunt-notify",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ryanpardieck/grunt-notify-chrome",
   "author": {
-    "name": "Dylan Greene",
-    "email": "dylang@gmail.com"
+    "name": "Ryan Pardieck",
+    "email": "ryanpardieck@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dylang/grunt-notify.git"
+    "url": "git://github.com/ryanpardieck/grunt-notify-chrome.git"
   },
   "bugs": {
-    "url": "https://github.com/dylang/grunt-notify/issues"
+    "url": "https://github.com/ryanpardieck/grunt-notify-chrome/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/dylang/grunt-notify/blob/master/LICENSE-MIT"
+      "url": "https://github.com/ryanpardieck/grunt-notify-chrome/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -44,11 +44,8 @@
     "gruntplugin",
     "notification",
     "notify",
-    "growl",
-    "mountain lion",
-    "mavericks",
-    "linux",
-    "notify-send",
+    "chrome",
+    "remote",
     "error",
     "warning",
     "automatic"
